@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact — Julian Guenard</title>
+    <meta name="description" content="Contacter Julian Guenard pour une alternance, un stage ou un projet design." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;500;700;800&family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body class="theme-cream">
+    <div class="page-grain"></div>
+    <header class="site-header">
+      <a href="index.html" class="brand-mark" aria-label="Accueil Julian Guenard">
+        <span>JG</span>
+      </a>
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="projects.html">Projects</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="is-active">Contact</a>
+      </nav>
+    </header>
+
+    <main class="content-spacing">
+      <section class="contact-layout reveal">
+        <div class="contact-intro">
+          <h1 class="display-title">CONTACT</h1>
+          <p>
+            Je suis disponible pour une alternance à partir de septembre 2026. Écris-moi pour parler projet, studio ou
+            collaboration.
+          </p>
+          <ul class="contact-links">
+            <li><a href="mailto:julian.guenard.design@gmail.com">julian.guenard.design@gmail.com</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank" rel="noreferrer">LinkedIn</a></li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noreferrer">Instagram</a></li>
+            <li><a href="https://www.behance.net" target="_blank" rel="noreferrer">Behance</a></li>
+          </ul>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <label for="name">Nom</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+
+          <button type="submit" class="btn magnetic">Envoyer</button>
+          <p id="form-status" aria-live="polite"></p>
+        </form>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span data-year></span> Julian Guenard — Designer Graphique</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+  </body>
+</html>
