@@ -1,0 +1,43 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 595 842] /Contents 4 0 R /Resources << /Font << /F1 5 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 189 >>
+stream
+BT
+/F1 18 Tf
+72 780 Td
+(Julian Guenard - CV) Tj
+0 -34 Td
+/F1 12 Tf
+(Etudiant en Design Graphique - EEGP Angers) Tj
+0 -20 Td
+(Recherche une alternance pour septembre 2026.) Tj
+0 -20 Td
+(Competences: 2D/3D, Editorial, Typographie, Branding, Motion, Illustration) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 6
+0000000000 65535 f 
+0000000010 00000 n 
+0000000063 00000 n 
+0000000122 00000 n 
+0000000248 00000 n 
+0000000488 00000 n 
+trailer
+<< /Size 6 /Root 1 0 R >>
+startxref
+558
+%%EOF
